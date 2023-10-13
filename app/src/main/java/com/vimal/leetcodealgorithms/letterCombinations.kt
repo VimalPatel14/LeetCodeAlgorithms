@@ -13,23 +13,18 @@ class letterCombinations {
         val lettercombinations = mutableListOf<String>()
 
         if (digits.length == 1) {
-
             val value = letters[digits.toInt() - 2]
             for (i in value) {
                 lettercombinations.add(i.toString())
             }
-
             return lettercombinations
         }
+
         val lettermulti = mutableListOf<String>()
-        for (i in digits){
-           val d = i.toString()
+        for (i in digits) {
+            val d = i.toString()
         }
 
-
-
-
         return lettercombinations
-
     }
 }
